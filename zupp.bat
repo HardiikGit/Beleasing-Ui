@@ -1,5 +1,4 @@
 @echo off
-color 2
 :: Ask for commit message
 set /p msg=Enter your commit message: 
 
