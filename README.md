@@ -1,1 +1,1 @@
-<h1 center>Heyy. . . . . . !</h1>
+<h1 align='center' weight='900'>Heyy. . . . . . !</h1>
