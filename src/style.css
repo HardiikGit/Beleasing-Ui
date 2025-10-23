@@ -1,5 +1,4 @@
-/* Header Section */
-.MainHeader {
+Section */ .MainHeader {
   background: var(--white);
   position: fixed;
   top: 0;
@@ -223,7 +222,7 @@
   }
   .Logo-Image {
     width: 110px;
-    padding: 5px;
+    padding: 2px;
   }
   .Banner-Heading h1 {
     font-size: 32px;
@@ -242,6 +241,7 @@
     height: 100vh;
     justify-content: center;
     transition: all ease-in-out 0.3s;
+    z-index: 101;
   }
   .Nav-fl {
     flex-direction: column;
@@ -257,5 +257,17 @@
   }
   .Cat-Boxes > a {
     flex: 100%;
+  }
+  .Car-Image {
+    width: 60%;
+  }
+  .Category-Childs {
+    align-items: flex-start;
+  }
+  .Heading-Title h3 {
+    font-size: 22px;
+  }
+  .Para p {
+    font-size: 14px;
   }
 }
