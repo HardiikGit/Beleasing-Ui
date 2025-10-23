@@ -1,0 +1,261 @@
+/* Header Section */
+.MainHeader {
+  background: var(--white);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.Head-Logo,
+.Nav-fl {
+  gap: 30px;
+}
+.Logo-Name h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  text-transform: uppercase;
+}
+.Logo-Image {
+  width: 148px;
+}
+.Nav-Items a {
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  gap: 10px;
+  padding: 19px;
+}
+.Nav-Items a:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
+/* Banner Section */
+.BannerSection {
+  background: url("/Banner.jpeg") no-repeat center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.Banner-Heading h1 {
+  font-size: 44px;
+  font-weight: 600;
+  color: var(--white);
+}
+.Banner-Button {
+  padding: 20px 35px;
+  background: var(--primary);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  gap: 10px;
+  border: 1px solid var(--primary);
+  transition: all 0.2s ease-in-out;
+}
+.Banner-Button:hover {
+  background: var(--white);
+  color: var(--primary);
+}
+.Review-Content {
+  backdrop-filter: blur(2px);
+  padding: 20px 80px;
+  border: 1px solid #ffffff39;
+}
+.Banner-Stars,
+.Sales-Quality,
+.Mid-Line {
+  padding: 10px 0px;
+}
+.Banner-Stars ul {
+  gap: 5px;
+}
+.Stars {
+  color: var(--white);
+  font-size: 18px;
+}
+.Sales-Quality p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.Mid-Line::before {
+  content: "";
+  width: 75%;
+  height: 1px;
+  background: #ffffff39;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 13%;
+}
+.Purchase-Steps {
+  margin-top: 50px;
+  gap: 50px;
+}
+.Purchase-Steps > div {
+  flex: 0 31%;
+  border-top: 1px solid var(--white);
+  padding-top: 30px;
+}
+.O1 p,
+.O2 p,
+.O3 p {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+/* Cars Category Section */
+.CarsCategorySection {
+  padding: 50px 0px;
+}
+.Category-Childs,
+.Cat-Boxes {
+  gap: 30px;
+}
+.Cat-Boxes > a {
+  flex: 1 48%;
+  transition: all 0.2s ease-in-out;
+  padding: 20px;
+  border: 1px solid #16182d21;
+}
+.Cat-Boxes > a:hover {
+  transform: translateY(-10px);
+}
+.Car-Image {
+  width: 45%;
+}
+.Car-Content {
+  width: 55%;
+}
+.Heading-Title h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--primary);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.Para p {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Responsive Section Starts */
+@media (max-width: 992px) {
+  .Logo-Name {
+    display: none;
+  }
+  .Banner-Heading h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    br {
+      display: none;
+    }
+  }
+  .Head-Logo,
+  .Nav-fl {
+    gap: 0px;
+  }
+  .BannerSection {
+    background-position: right;
+  }
+  .Purchase-Steps > div {
+    flex: 0 28%;
+  }
+  .Sales-Quality p {
+    font-size: 12px;
+  }
+  .O1 p,
+  .O2 p,
+  .O3 p {
+    font-size: 14px;
+  }
+  .Cat-Boxes > a {
+    flex: 0 48.5%;
+  }
+  .Category-Childs,
+  .Cat-Boxes {
+    gap: 20px;
+  }
+  .Category-Childs {
+    flex-direction: column;
+  }
+  .Car-Image,
+  .Car-Content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 567px) {
+  .isOpen {
+    right: 0 !important;
+  }
+  .Toggle-Button,
+  .Close-Nav {
+    background: none;
+    border: none;
+    font-size: 32px;
+    display: flex;
+    color: var(--primary);
+  }
+  .HamBurg,
+  .X-Cross {
+    display: block !important;
+  }
+  .X-Cross {
+    top: -200px;
+    right: 20px;
+  }
+  .Head-Logo {
+    justify-content: space-between;
+  }
+  .Banner-Review,
+  .Down-Pin {
+    display: none;
+  }
+  .Logo-Image {
+    width: 110px;
+    padding: 5px;
+  }
+  .Banner-Heading h1 {
+    font-size: 32px;
+  }
+  .BannerSection {
+    background-position: -392px 90%;
+    background-size: 420%;
+  }
+  .NavBar {
+    position: fixed;
+    background: var(--white);
+    right: -100%;
+    top: 0;
+    width: 100%;
+    flex-direction: column !important;
+    height: 100vh;
+    justify-content: center;
+    transition: all ease-in-out 0.3s;
+  }
+  .Nav-fl {
+    flex-direction: column;
+  }
+  .Purchase-Steps > div {
+    flex: 100%;
+    padding: 10px 0px;
+  }
+  .Purchase-Steps {
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: -150px;
+  }
+  .Cat-Boxes > a {
+    flex: 100%;
+  }
+}

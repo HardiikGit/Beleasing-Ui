@@ -1,0 +1,34 @@
+/* Font Family import */
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  font-family: var(--font);
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a,
+button {
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: var(--font);
+}
+input,
+textarea {
+  font-family: var(--font);
+}
+::selection {
+  background: var(--primary);
+  color: var(--white);
+}
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --primary: #16182d;
+  --text: #73758a;
+  --font: "Syne", sans-serif;
+}
