@@ -1,5 +1,6 @@
 import { FaRightLong } from 'react-icons/fa6';
 import { FaArrowRightLong } from 'react-icons/fa6';
+import PureNext from './PureRenting';
 
 function NewCar() {
  return (
@@ -64,6 +65,7 @@ function NewCar() {
       </div>
      </div>
     </div>
+    <PureNext />
    </div>
   </div>
  )

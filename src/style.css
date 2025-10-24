@@ -185,6 +185,9 @@
     color: var(--text);
   }
 }
+.Next-Gen {
+  gap: 30px;
+}
 
 /* Responsive Section Starts */
 @media (max-width: 992px) {
