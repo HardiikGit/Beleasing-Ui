@@ -13,7 +13,7 @@ git commit -m "%msg%"
 timeout /t 1 >nul
 
 echo.
-echo Pushing to repository...
+echo Pushing to repository....
 git push origin main
 timeout /t 1 >nul
 
