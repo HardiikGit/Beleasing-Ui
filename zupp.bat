@@ -18,7 +18,7 @@ git push origin main
 timeout /t 1 >nul
 
 echo.
-echo All Done . . . . . !
+echo All Done . . . . . 👍
 timeout /t 1 >nul
 
 echo.
