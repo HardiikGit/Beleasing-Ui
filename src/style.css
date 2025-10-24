@@ -1,4 +1,5 @@
-Section */ .MainHeader {
+/*Section */
+.MainHeader {
   background: var(--white);
   position: fixed;
   top: 0;
@@ -156,7 +157,7 @@ Section */ .MainHeader {
   background: #f4f4f4;
 }
 .SubHeading h2 {
-  font-size: 42px;
+  font-size: 38px;
   color: var(--primary);
 }
 .NewCarsCollection {
@@ -184,6 +185,7 @@ Section */ .MainHeader {
     color: var(--text);
   }
 }
+
 /* Responsive Section Starts */
 @media (max-width: 992px) {
   .Logo-Name {
@@ -227,6 +229,13 @@ Section */ .MainHeader {
   .Car-Image,
   .Car-Content {
     width: 100%;
+  }
+  .SubHeading h2 {
+    font-size: 28px;
+    width: 90%;
+  }
+  .NewCarsCollection {
+    align-items: flex-start;
   }
 }
 
@@ -292,7 +301,8 @@ Section */ .MainHeader {
     margin-top: 20px;
     margin-bottom: -150px;
   }
-  .Cat-Boxes > a {
+  .Cat-Boxes > a,
+  .NewCarsCollection > div {
     flex: 100%;
   }
   .Car-Image {
@@ -306,5 +316,15 @@ Section */ .MainHeader {
   }
   .Para p {
     font-size: 14px;
+  }
+  .SubHeading h2 {
+    width: 100%;
+  }
+  .Second-Heading,
+  .NewCarsCollection {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 0px;
   }
 }
