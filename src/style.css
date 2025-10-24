@@ -45,8 +45,10 @@ Section */ .MainHeader {
   font-weight: 600;
   color: var(--white);
 }
-.Banner-Button {
-  padding: 20px 35px;
+.Banner-Button,
+.See-All a {
+  display: inline-flex;
+  padding: 15px 35px;
   background: var(--primary);
   color: var(--white);
   font-size: 16px;
@@ -56,7 +58,8 @@ Section */ .MainHeader {
   border: 1px solid var(--primary);
   transition: all 0.2s ease-in-out;
 }
-.Banner-Button:hover {
+.Banner-Button:hover,
+.See-All a:hover {
   background: var(--white);
   color: var(--primary);
 }
@@ -147,6 +150,40 @@ Section */ .MainHeader {
   font-weight: 500;
 }
 
+/* NewCars Section */
+.NewCarsSection {
+  padding: 50px 0px;
+  background: #f4f4f4;
+}
+.SubHeading h2 {
+  font-size: 42px;
+  color: var(--primary);
+}
+.NewCarsCollection {
+  margin: 50px 0px;
+}
+.NewCarsCollection > div {
+  flex: 0 31%;
+}
+.Box-fl {
+  padding: 20px;
+  background: var(--white);
+}
+.CarImage-Name h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.CarImage-Name {
+  border-bottom: 1px solid #16182d21;
+  padding-bottom: 20px;
+}
+.Check-Details {
+  padding-top: 20px;
+  a {
+    color: var(--text);
+  }
+}
 /* Responsive Section Starts */
 @media (max-width: 992px) {
   .Logo-Name {

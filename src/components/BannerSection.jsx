@@ -30,9 +30,9 @@ function BannerSection() {
        </div>
       </div>
       <div className="Banner-Bton">
-       <button className="Banner-Button d-flex align-items-center">
+       <a className="Banner-Button align-items-center">
         Check Your Car <FaRightLong />
-       </button>
+       </a>
       </div>
       <div className="Purchase-Steps d-flex  flexwrap">
        <div className="O1">

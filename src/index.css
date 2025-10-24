@@ -17,6 +17,9 @@ button {
   text-decoration: none;
   font-family: var(--font);
 }
+img {
+  display: flex;
+}
 input,
 textarea {
   font-family: var(--font);
