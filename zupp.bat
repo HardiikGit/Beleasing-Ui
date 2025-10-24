@@ -19,4 +19,11 @@ timeout /t 1 >nul
 
 echo.
 echo All Done . . . . . !
-pause
+timeout /t 1 >nul
+
+echo.
+clear
+timeout /t 1 >nul
+
+echo.
+exit
