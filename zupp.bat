@@ -22,8 +22,4 @@ echo All Done . . . . . !
 timeout /t 1 >nul
 
 echo.
-clear
-timeout /t 1 >nul
-
-echo.
 exit
