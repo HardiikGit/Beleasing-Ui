@@ -23,8 +23,5 @@ echo "All Done . . . . . 👍"
 sleep 1
 
 echo
+clear
 exit 0
-sleep 1
-
-echo
-clear 0
