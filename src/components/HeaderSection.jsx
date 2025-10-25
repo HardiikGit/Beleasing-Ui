@@ -11,7 +11,7 @@ function HeaderSection() {
     <header className="MainHeader">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6 col-md-3 col-sm-12 no-padding">
+          <div className="col-lg-6 col-md-3 col-sm-12">
             <div className="Head-Logo d-flex align-items-center">
               <div className="Logo-Image">
                 <a href="/">
