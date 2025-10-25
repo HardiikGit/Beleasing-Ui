@@ -24,3 +24,7 @@ sleep 1
 
 echo
 exit 0
+sleep 1
+
+echo
+clear
