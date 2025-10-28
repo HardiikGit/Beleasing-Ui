@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Ask for commit message
 read -p "Enter your commit message: " msg
 

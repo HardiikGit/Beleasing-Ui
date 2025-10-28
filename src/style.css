@@ -188,6 +188,22 @@
 .Next-Gen {
   gap: 30px;
 }
+.ArrowRight {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--white);
+  font-size: 22px;
+}
+.ListRental,
+.Rental {
+  gap: 20px;
+}
+.Description p {
+  font-size: 22px;
+  color: var(--primary);
+  font-weight: 500;
+}
 
 /* Responsive Section Starts */
 @media (max-width: 992px) {
@@ -239,6 +255,9 @@
   }
   .NewCarsCollection {
     align-items: flex-start;
+  }
+  .RenyList {
+    margin-top: 20px;
   }
 }
 
@@ -329,5 +348,17 @@
     flex-direction: column;
     gap: 15px;
     margin-bottom: 0px;
+  }
+  .Next-Gen {
+    margin-top: 30px;
+    gap: 18px;
+  }
+  .ArrowRight {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+  .Description p {
+    font-size: 18px;
   }
 }
