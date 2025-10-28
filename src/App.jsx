@@ -3,6 +3,7 @@ import BannerSection from './components/BannerSection'
 import CarsCategory from "./components/CarsCategory"
 import NewCar from "./components/NewCar"
 import Companies from "./components/Companies"
+import VideoSec from "./components/VIdeoSec"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <CarsCategory />
       <NewCar />
       <Companies />
+      <VideoSec />
     </>
   )
 }
