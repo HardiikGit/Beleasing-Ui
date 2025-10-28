@@ -46,8 +46,8 @@
   font-weight: 600;
   color: var(--white);
 }
-.Banner-Button,
-.See-All a {
+.Main-Button a,
+.Secondry-Button a {
   display: inline-flex;
   padding: 15px 35px;
   background: var(--primary);
@@ -59,10 +59,14 @@
   border: 1px solid var(--primary);
   transition: all 0.2s ease-in-out;
 }
-.Banner-Button:hover,
-.See-All a:hover {
-  background: var(--white);
-  color: var(--primary);
+.Main-Button a:hover,
+.Secondry-Button a:hover {
+  background: transparent;
+  backdrop-filter: blur(2px);
+  color: var(--white);
+}
+.Secondry-Button a:hover {
+  color: var(--primary) !important;
 }
 .Review-Content {
   backdrop-filter: blur(2px);

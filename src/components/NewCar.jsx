@@ -10,9 +10,9 @@ function NewCar() {
      <div className="col-lg-12">
       <div className="Second-Heading d-flex align-items-center justify-space-between">
        <div className="SubHeading">
-        <h2>CHOOSE FROM 1,200 NEW CARS</h2>
+        <h2>Choose From 1,200 New Cars</h2>
        </div>
-       <div className="See-All">
+       <div className="Secondry-Button">
         <a href="#" className='d-flex align-items-center'>See All <FaRightLong /> </a>
        </div>
       </div>

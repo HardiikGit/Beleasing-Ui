@@ -13,8 +13,8 @@ function PureNext() {
      <div className="Para">
       <p>Maximus justo. Maecenas mi tortor, pellentesque a aliquam ut, fringilla eleifend lectus. Maecenas.</p>
      </div>
-     <div className="Banner-Bton">
-      <a className="Banner-Button align-items-center">
+     <div className="Secondry-Button">
+      <a href='/CheckYourCar' className="align-items-center">
        Check Your Car <FaRightLong />
       </a>
      </div>

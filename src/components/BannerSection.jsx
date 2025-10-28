@@ -29,8 +29,8 @@ function BannerSection() {
         </div>
        </div>
       </div>
-      <div className="Banner-Bton">
-       <a className="Banner-Button align-items-center">
+      <div className="Main-Button">
+       <a href='#CheckYourCar' className="align-items-center">
         Check Your Car <FaRightLong />
        </a>
       </div>
