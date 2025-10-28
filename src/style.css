@@ -234,7 +234,15 @@
   font-size: 14px;
   font-weight: 400;
 }
-
+.Compaines-Images {
+  margin-top: 40px;
+  gap: 20px;
+}
+.Images-Comp {
+  width: 190px;
+  padding: 10px 30px;
+  background: #00000009;
+}
 /* Responsive Section Starts */
 @media (max-width: 992px) {
   .Logo-Name {
@@ -393,5 +401,8 @@
   }
   .Images-View {
     margin-top: 20px;
+  }
+  .Images-Comp {
+    width: 160px;
   }
 }

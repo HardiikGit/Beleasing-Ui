@@ -30,8 +30,31 @@ function Companies() {
       </div>
      </div>
     </div>
+    <div className="row">
+     <div className="col-lg-12">
+      <div className="Compaines-Images d-flex align-items-center justify-space-between flexwrap">
+       <div className="Images-Comp">
+        <img src="/AUDI.png" className="img-cover" alt="" />
+       </div>
+       <div className="Images-Comp">
+        <img src="/BMW.png" className="img-cover" alt="" />
+       </div>
+       <div className="Images-Comp">
+        <img src="/ford.png" className="img-cover" alt="" />
+       </div>
+       <div className="Images-Comp">
+        <img src="/LEXUS.png" className="img-cover" alt="" />
+       </div>
+       <div className="Images-Comp">
+        <img src="/hyundai.png" className="img-cover" alt="" />
+       </div>
+       <div className="Images-Comp">
+        <img src="/citron.png" className="img-cover" alt="" />
+       </div>
+      </div>
+     </div>
+    </div>
    </div>
-
   </div>
  )
 }

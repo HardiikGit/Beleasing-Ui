@@ -10,7 +10,6 @@ function App() {
     <>
       <HeaderSection />
       <BannerSection />
-      <BannerSection />
       <CarsCategory />
       <NewCar />
       <Companies />
