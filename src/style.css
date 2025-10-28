@@ -161,6 +161,7 @@
   background: #f4f4f4;
 }
 .SubHeading h2 {
+  text-transform: uppercase;
   font-size: 38px;
   color: var(--primary);
 }
@@ -207,6 +208,31 @@
   font-size: 22px;
   color: var(--primary);
   font-weight: 500;
+}
+
+/* Companies Section Css */
+.MainCompaniesSection {
+  padding: 50px 0px;
+}
+.Images-View {
+  height: 550px;
+}
+.ImageText {
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+}
+.ImageHeading a {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.para p {
+  margin-top: 10px;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Responsive Section Starts */
@@ -364,5 +390,8 @@
   }
   .Description p {
     font-size: 18px;
+  }
+  .Images-View {
+    margin-top: 20px;
   }
 }

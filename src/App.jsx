@@ -1,7 +1,8 @@
-import BannerSection from "./components/BannerSection"
-import CarsCategory from "./components/CarsCategory"
 import HeaderSection from "./components/HeaderSection"
+import BannerSection from './components/BannerSection'
+import CarsCategory from "./components/CarsCategory"
 import NewCar from "./components/NewCar"
+import Companies from "./components/Companies"
 
 function App() {
 
@@ -9,8 +10,10 @@ function App() {
     <>
       <HeaderSection />
       <BannerSection />
+      <BannerSection />
       <CarsCategory />
       <NewCar />
+      <Companies />
     </>
   )
 }
